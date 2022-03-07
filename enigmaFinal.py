@@ -10,7 +10,7 @@ def menu():
         f2.close()
     LectureMessage()
     SauvegardeMessage()
-    choiDuRetor()
+    choixDuRotor()
     f1.close()
     f2.close()
 
@@ -31,7 +31,7 @@ def SauvegardeMessage(f4=open(r'C:\Users\thiba\Contacts\Desktop\ProjetEnigma\tes
     f4.write(texte)
     f4.close()
 
-def choiDuRetor():
+def choixDuRotor():
     reponseEnigma = texte
     retor = {
         "alphabet" : ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
